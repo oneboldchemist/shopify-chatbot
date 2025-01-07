@@ -24,7 +24,7 @@ app.post('/api/chat', async (req, res) => {
   try {
     const { message } = req.body;
     const requestBody = {
-      model: 'gpt-4o',
+      model: 'gpt-4o-2024-08-06',
       messages: [
         { role: 'system', content: 'You are a helpful assistant.' },
         { role: 'user', content: message }
