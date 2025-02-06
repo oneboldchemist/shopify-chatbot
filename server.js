@@ -43,7 +43,7 @@ app.post('/api/chat', async (req, res) => {
 
     // Skicka anrop
     const requestBody = {
-      model: 'ft:gpt-4o-2024-08-06:revenite-ab::An3gnmOO', // DIN finetunade modell
+      model: 'gpt-4o-mini', // DIN finetunade modell
       messages: messages,
       max_tokens: 200,
       temperature: 0.7
